@@ -1,0 +1,15 @@
+#autoComplete {
+    border: 1px solid black;
+}
+
+.listHighlighted {
+    background-color: #87bb0a;
+}
+
+.autoCompleteItems:hover {
+    background-color: #87bb0a;
+}
+
+.autoCompleteItems {
+    color: #888;
+}
