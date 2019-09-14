@@ -7,15 +7,24 @@
             <meta name="description" content="">
             <meta name="viewport" content="width=device-width, initial-scale=1">
             <link rel="stylesheet" href="./styles/main.css">
+            <link rel="stylesheet" href="./styles/navbar.css">
+            <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
         </head>
         <body>
-            <div class="navbar">
-                <a href="./index.htmlz">Home</a>
-                <a href="#">About</a>
-                <a href="#">Explore</a>
-                <a href="#">Contact Us</a>
-                <a href="#">Login</a>
-                <a href="#">Sign-Up</a>
+            <div class="container">
+                <nav>
+                    <a id="logo" href="#">Logo</a>
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Explore</a>
+                    <a href="#">Contact</a>
+                    <div class="login-container">
+                        <form action="/action_page.php">
+                            <input type="text" placeholder="Username" name="username">
+                            <input type="text" placeholder="Password" name="psw">
+                            <button class="round" type="submit">Login</button>
+                        </form>
+                </nav>
             </div>
             <div class="header">
                 <h1>Header goes here</h1>
