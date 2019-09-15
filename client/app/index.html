@@ -7,34 +7,34 @@
             <meta name="description" content="">
             <meta name="viewport" content="width=device-width, initial-scale=1">
             <link rel="stylesheet" href="./styles/main.css">
-            <link rel="stylesheet" href="./styles/navbar.css">
+            <link rel="stylesheet" href="./styles/landing.css">
             <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
         </head>
         <body>
-            <div class="container">
-                <nav>
-                    <a id="logo" href="#">Logo</a>
-                    <a href="#">Home</a>
-                    <a href="#">About</a>
-                    <a href="#">Explore</a>
-                    <a href="#">Contact</a>
-                    <div class="login-container">
-                        <form action="/action_page.php">
-                            <input type="text" placeholder="Username" name="username">
-                            <input type="text" placeholder="Password" name="psw">
-                            <button class="round" type="submit">Login</button>
-                        </form>
-                </nav>
-            </div>
-            <div class="header">
-                <h1>Header goes here</h1>
-                <p>Intro text</p>
-                <input type="text" id="query" autocomplete="false" />
-                <button id="submitButton">Submit</button>
-                <div id="autoComplete"></div>
-            </div>
+            <nav>
+                <a id="logo" href="#">Logo</a>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Explore</a>
+                <a href="#">Contact</a>
+                <div class="login-container">
+                    <form action="/action_page.php">
+                        <input type="text" placeholder="Username" name="username">
+                        <input type="text" placeholder="Password" name="psw">
+                        <button class="round" type="submit">Login</button>
+                    </form>
+            </nav>
+            <section class="container">
+                <div class="header">
+                    <h1 class="header-text">USF Geospatial Data Project</h1>
+                    <h2 class="hero-subtitle">Get Your Data Easier and Faster!</h2>
+                    <input type="text" id="query" autocomplete="false" />
+                    <button id="submitButton">Submit</button>
+                    <div id="autoComplete"></div>
+                </div>
+            </section>
             <div class="main">
-                <h2>Subheader</h2>
                 <p>Main content goes here.</p>
             </div>
             <div class="footer">
