@@ -28,6 +28,7 @@
 	<link rel="stylesheet" href="css/owl.carousel.css">
 	<link rel="stylesheet" href="css/hexagons.min.css">
 	<link rel="stylesheet" href="css/nice-select.css">
+	<link rel="stylesheet" href="css/search.css">
 	<link rel="stylesheet" href="css/main.css">
 </head>
 
@@ -93,8 +94,25 @@
 						<a href="#" class="primary-btn">More About Us</a>
 
 						<div class="d-flex align-items-center mt-60">
-							<input type="text" id="query" autocomplete="false" />
-							<button class="hero-button" id="submitButton">Search</button>
+							<div class="s130">
+								<form>
+									<div class="inner-form">
+										<div class="input-field first-wrap">
+											<div class="svg-wrapper">
+												<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+													<path>d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">
+													</path>
+												</svg>
+											</div>
+											<input id="search" type="text" placeholder="Find Dataset" />
+										</div>
+										<div class="input-field second-wrap">
+											<button class="btn-search" type="button">SEARCH</button>
+										</div>
+									</div>
+								</form>
+							</div>
+							<script src="js/extention/choices.js"></script>
 							<div id="autoComplete"></div>
 						</div>
 					</div>
@@ -167,7 +185,7 @@
 	<!--================ End Service Area =================-->
 
 	<!--================ Start Video Area =================-->
-	<section class="video-sec-area">
+	<!-- <section class="video-sec-area">
 		<div class="container">
 			<div class="row justify-content-start align-items-center">
 				<div class="col-lg-6 video-left justify-content-center align-items-center d-flex">
@@ -177,40 +195,39 @@
 					</a>
 				</div>
 				<div class="col-lg-5 offset-lg-1 video-right">
-					<h1>We Are Crafted. <br>
+					<h1>We Are MSUSF. <br>
 						Some Info About Us</h1>
 					<p>
-						In the history of modern astronomy, there is probably no one greater leap forward than the building and launch of
-						the space telescope known as the Hubble.
+						Data Science Students at Make School are teaming up with the Economics Department at the University of San Francisco to make geospatial and economic data more accessible for all researchers.
 					</p>
 
 					<div class="counter_area" id="project_counter">
-						<!-- single counter -->
+						
 						<div class="single_counter">
 							<div class="info-content">
 								<h4><span class="counter">500</span>+</h4>
-								<p>Qualified Lawyer</p>
+								<p>Categories</p>
 							</div>
 						</div>
-						<!-- single counter -->
+						
 						<div class="single_counter">
 							<div class="info-content">
 								<h4><span class="counter">20,650</span>+</h4>
-								<p>Solved Cases</p>
+								<p>Datasets</p>
 							</div>
 						</div>
-						<!-- single counter -->
+						
 						<div class="single_counter">
 							<div class="info-content">
 								<h4><span class="counter">2.5</span>k+</h4>
-								<p>Trusted Clients</p>
+								<p>Code Snippets to Get You Started</p>
 							</div>
 						</div>
-						<!-- single counter -->
+					
 						<div class="single_counter">
 							<div class="info-content">
 								<h4><span class="counter">50</span>+</h4>
-								<p>Achievements</p>
+								<p>Data visualizations</p>
 							</div>
 						</div>
 					</div>
@@ -218,88 +235,21 @@
 				<img class="img-fluid video-shape" src="img/video-bg-shape.png" alt="">
 			</div>
 		</div>
-	</section>
+	</section> -->
 	<!--================ End video Area =================-->
 
-	<!--================ Start Portfolio Service Area =================-->
-	<section class="portfolio-area section-gap">
-		<div class="container-fluid">
-			<div class="row align-items-center">
-				<div class="col-lg-6 col-md-6">
-					<div class="portfolio-main">
-						<h1>Recent Portfolio <br> Showcase</h1>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-							magna aliqua. Ut enim ad minim veniam quis nostrud exercitation.</p>
-						<a href="#" class="primary-btn">View all Works</a>
-					</div>
-				</div>
-				<div class="col-lg-6 col-md-6">
-					<div class="active-gallery-carousel">
-						<!-- single gallery -->
-						<div class="single-gallery">
-							<img class="img-fluid" src="img/project/gallery1.jpg" alt="">
-							<div class="gallery-content">
-								<p>Proper Guided Tour</p>
-								<h4>Santorini Island Dream <br>
-									Holiday and Fun <br>
-									Package</h4>
-							</div>
-							<div class="light-box">
-								<a href="img/project/gallery1.jpg" class="img-popup">
-									<span class="lnr lnr-link"></span>
-								</a>
-							</div>
-						</div>
-						<!-- single gallery -->
-						<div class="single-gallery">
-							<img class="img-fluid" src="img/project/gallery2.jpg" alt="">
-							<div class="gallery-content">
-								<p>Proper Guided Tour</p>
-								<h4>Santorini Island Dream <br>
-									Holiday and Fun <br>
-									Package</h4>
-							</div>
-							<div class="light-box">
-								<a href="img/project/gallery2.jpg" class="img-popup">
-									<span class="lnr lnr-link"></span>
-								</a>
-							</div>
-						</div>
-						<!-- single gallery -->
-						<div class="single-gallery">
-							<img class="img-fluid" src="img/project/gallery3.jpg" alt="">
-							<div class="gallery-content">
-								<p>Proper Guided Tour</p>
-								<h4>Santorini Island Dream <br>
-									Holiday and Fun <br>
-									Package</h4>
-							</div>
-							<div class="light-box">
-								<a href="img/project/gallery3.jpg" class="img-popup">
-									<span class="lnr lnr-link"></span>
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--================ End Portfolio Service Area =================-->
-
 	<!--================ Start Team Area =================-->
-	<section class="team-area">
+	<!-- <section class="team-area">
 		<div class="container">
 			<div class="owl-carousel active-team-carusel">
-				<!-- single carousel -->
 				<div class="row align-items-center single-item">
 					<div class="col-lg-6 col-md-6">
 						<div class="team-left">
 							<img class="img-fluid" src="img/team1.jpg" alt="">
 							<div class="member-desc d-flex justify-content-between align-items-center">
 								<div class="m-title">
-									<h4>Randy Weaver</h4>
-									<p>Senior Barrister at law</p>
+									<h4>Raymond Wu</h4>
+									<p>Project Manager</p>
 								</div>
 								<div class="m-social">
 									<div class="t-icons">
@@ -315,8 +265,8 @@
 						</div>
 					</div>
 					<div class="col-lg-5 offset-lg-1 col-md-6 team-right">
-						<h1>Our Interactive <br>
-							Team Mates</h1>
+						<h1>Meet the <br>
+							Team</h1>
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
 							magna aliqua. Ut enim ad minim veniam quis nostrud exercitation.
@@ -324,7 +274,7 @@
 						<a class="primary-btn" href="#">view members</a>
 					</div>
 				</div>
-				<!-- single carousel -->
+				
 				<div class="row align-items-center single-item">
 					<div class="col-lg-6 col-md-6">
 						<div class="team-left">
@@ -360,61 +310,9 @@
 			</div>
 		</div>
 	</section>
-	<!--================ End Team Area =================-->
-
-	<!--================ Start Testimonial Area =================-->
-	<section class="testimonial-area section-gap">
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-lg-10 text-center">
-					<div class="section-title">
-						<p>We Are Providing these services</p>
-						<h1>We Are <span>Crafted.</span> Design & Development<br> <span>Services</span> Provider.</h1>
-					</div>
-				</div>
-			</div>
-			<div class="row justify-content-center">
-				<div class="col-lg-8 text-center">
-					<div class="owl-carousel active-testi-carousel">
-						<!-- single carousel -->
-						<div class="single-testi-item">
-							<div class="author-title">
-								<div class="thumb"><img src="img/about-author.png" alt=""></div>
-								<div class="a-desc">
-									<h6>Marvel Maison</h6>
-									<p>Chief Executive, Amazon</p>
-								</div>
-							</div>
-							<div class="author-desc">
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-									dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-									commodo consequat.</p>
-							</div>
-						</div>
-						<!-- single carousel -->
-						<div class="single-testi-item">
-							<div class="author-title">
-								<div class="thumb"><img src="img/about-author.png" alt=""></div>
-								<div class="a-desc">
-									<h6>Marvel Maison</h6>
-									<p>Chief Executive, Amazon</p>
-								</div>
-							</div>
-							<div class="author-desc">
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-									dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-									commodo consequat.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--================ End Testimonial Area =================-->
-
+	<================ End Team Area =================-->
 	<!--================ Start CTA Area =================-->
-	<section class="cta-area">
+	<!-- <section class="cta-area">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-7 col-md-12">
@@ -426,11 +324,11 @@
 				<img src="img/cta-bg-shape.png" alt="" class="cta-shape img-fluid">
 			</div>
 		</div>
-	</section>
+	</section> -->
 	<!--================ End CTA Area =================-->
 
 	<!--================ Start Blog Area =================-->
-	<section class="blog-area section-gap">
+	<!-- <section class="blog-area section-gap">
 		<div class="container">
 			<div class="row align-items-end justify-content-center">
 				<div class="col-lg-5 col-md-12 text-left">
@@ -447,7 +345,7 @@
 				</div>
 			</div>
 			<div class="row blog-inner justify-content-center">
-				<!-- single-blog -->
+	
 				<div class="col-lg-4 col-md-6 col-sm-6">
 					<div class="single-blog">
 						<div class="blog-thumb">
@@ -464,7 +362,7 @@
 						</div>
 					</div>
 				</div>
-				<!-- single-blog -->
+				
 				<div class="col-lg-4 col-md-6 col-sm-6">
 					<div class="single-blog">
 						<div class="blog-thumb">
@@ -481,7 +379,7 @@
 						</div>
 					</div>
 				</div>
-				<!-- single-blog -->
+				
 				<div class="col-lg-4 col-md-6 col-sm-6">
 					<div class="single-blog">
 						<div class="blog-thumb">
@@ -500,7 +398,7 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 	<!--================ End Blog Area =================-->
 
 	<!--================ start footer Area  =================-->
@@ -509,10 +407,9 @@
 			<div class="row footer-top">
 				<div class="col-lg-3  col-md-6 col-sm-6">
 					<div class="single-footer-widget">
-						<h6>About Crafted</h6>
+						<h6>About MSUSF</h6>
 						<p>
-							The world has become so fast paced that people don’t want to stand by reading a page of information, they would
-							much rather look.
+							Data Science and Engineering Team based in San Francisco, CA.
 						</p>
 					</div>
 				</div>
@@ -522,12 +419,12 @@
 						<div class="row">
 							<ul class="col footer-nav">
 								<li><a href="index.html">Home</a></li>
-								<li><a href="services.html">Services</a></li>
-								<li><a href="project.html">Project</a></li>
+								<li><a href="#">Datasets</a></li>
+								<li><a href="#">Categories</a></li>
 							</ul>
 							<ul class="col footer-nav">
 								<li><a href="team-members.html">Team Members</a></li>
-								<li><a href="blog-single.html">Blog</a></li>
+								<li><a href="#">Sign Up</a></li>
 								<li><a href="contact.html">Contact</a></li>
 							</ul>
 						</div>
@@ -536,8 +433,8 @@
 
 				<div class="col-lg-3  col-md-6 col-sm-6">
 					<div class="single-footer-widget">
-						<h6>Newsletter</h6>
-						<p>For business professionals caught between high OEM price mediocre print and graphic.</p>
+						<h6>Keep In Touch</h6>
+						<p>We'd love your feedback on our project! Let us know what you think.</p>
 						<div class="" id="mc_embed_signup">
 
 							<form target="_blank" novalidate="true" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
@@ -561,21 +458,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-3  col-md-6 col-sm-6">
-					<div class="single-footer-widget mail-chimp">
-						<h6 class="mb-20">Instafeed</h6>
-						<ul class="instafeed d-flex flex-wrap">
-							<li><img src="img/instagram/i1.jpg" alt=""></li>
-							<li><img src="img/instagram/i2.jpg" alt=""></li>
-							<li><img src="img/instagram/i3.jpg" alt=""></li>
-							<li><img src="img/instagram/i4.jpg" alt=""></li>
-							<li><img src="img/instagram/i5.jpg" alt=""></li>
-							<li><img src="img/instagram/i6.jpg" alt=""></li>
-							<li><img src="img/instagram/i7.jpg" alt=""></li>
-							<li><img src="img/instagram/i8.jpg" alt=""></li>
-						</ul>
-					</div>
-				</div>
+		
 			</div>
 		</div>
 		<div class="footer-bottom d-flex justify-content-between align-items-center flex-wrap">
@@ -586,12 +469,6 @@
 							<p class="footer-text m-0"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-						</div>
-						<div class="footer-social d-flex align-items-center">
-							<a href="#"><i class="fa fa-facebook"></i></a>
-							<a href="#"><i class="fa fa-twitter"></i></a>
-							<a href="#"><i class="fa fa-dribbble"></i></a>
-							<a href="#"><i class="fa fa-behance"></i></a>
 						</div>
 					</div>
 				</div>
